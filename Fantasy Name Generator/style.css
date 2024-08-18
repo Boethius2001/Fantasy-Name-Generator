@@ -1,0 +1,58 @@
+
+a{
+    text-decoration: none;
+}
+.MainPage{
+    text-align: center;
+}
+.RandomizerPage{
+    text-align: center;
+}
+.DragonPage{
+    background-image: url(Images/DragonBackground.png);
+}
+.FantasyGeneratorPage{
+    background-image: url(Images/CityBackground.png);
+}
+.HeroPage{
+    background-image: url(Images/hero.png);
+}
+.DarkLordPage{
+    background-image: url(Images/DarkLord.png);
+}
+.KingdomPage{
+    background-image: url(Images/C.jpg);
+}
+.HeroButton{
+    font-size: 25px;
+    padding: 15px;
+    margin: 15px;
+
+    border-radius: 15px;
+    border: solid white;
+    background-color: darkblue;
+    color: white;
+}
+.HeroButton:hover{
+    background-color: blue;
+    cursor: pointer;
+}
+#box1{
+    border: 10px black solid;
+    border-radius: 10px;
+    width: 500px;
+    padding: 35px;
+    margin: 0 auto;
+    
+    background-color: rgba(245, 245, 245, 0.623);
+    color:  black;
+}
+#PageShortCut{
+    font-size: 2em;
+    color: white;
+    text-shadow: 
+        -1px -1px 0 #000,  
+         2px -1px 0 #000,
+        -1px  1px 0 #000,
+         2px  1px 0 #000;
+}
